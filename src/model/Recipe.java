@@ -1,15 +1,28 @@
 package model;
 
 import java.util.ArrayList;
+
 import java.util.List;
+
+import org.junit.Test;
 
 public class Recipe {
 	
 	private float ex;
 	
+	private Recipe addIngredientRecipe;
+	private Recipe addWeightRecipe;
+	
+	Recipe weight = new Recipe();
+	
+	
 	private List<Ingredient> ingredients;
 	public Recipe() {
 		ingredients = new ArrayList<Ingredient>();
+	
+		
+		//double addWeightRecipe = Recipe.addWeight();
+		
 	}
 	
 	public void addIngredient(String n, double w) {
@@ -79,8 +92,24 @@ public class Recipe {
 		
 	}
 	
+
+	private void setName(String string) {		
+	}
+	
+	@Test 
+	public void setUpEscenario1(String n, double w) {
+	
+	addIngredientRecipe.setName("Sal");
+	
+	//addIngredientRecipe.addWeight(12);
 	
 	
+	}
+	
+	@Test
+	
+	public void setUpEscenario2()
+
 	
 	
 }
