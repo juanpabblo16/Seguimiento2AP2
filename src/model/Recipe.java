@@ -8,11 +8,7 @@ import org.junit.Test;
 
 public class Recipe {
 	
-	private float ex;
-	
 	private Recipe addIngredientRecipe;
-	private Recipe addWeightRecipe;
-	
 	Recipe weight = new Recipe();
 	
 	
@@ -105,11 +101,5 @@ public class Recipe {
 	
 	
 	}
-	
-	@Test
-	
-	public void setUpEscenario2()
-
-	
 	
 }
